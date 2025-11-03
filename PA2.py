@@ -48,7 +48,6 @@ def SmoothPath(event):
         if len(points) >= 5:
             
             #convert points to array for spline interpolation
-            #x and y are columns 0 and 1 of the points array respectively
             pointsArray = np.array(points)
             x = pointsArray[:, 0]
             y = pointsArray[:, 1]
